@@ -1,0 +1,29 @@
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Name</th>
+    <th scope="col">Skill</th>
+    <th scope="col">Phone</th>
+    <th scope="col">Notes</th>
+    <th scope="col"></th>
+  </tr>
+  </thead>
+  <tbody *ngFor="let freelancer of freelancers;let indexOfelement=index">
+    <tr>
+      <th scope="row">{{indexOfelement+1}}</th>
+      <td>{{freelancer.name}}</td>
+      <td>{{ freelancer.skill }}</td>
+      <td>{{ freelancer.phone }}</td>
+      <td>{{ freelancer.notes }}</td>
+      <td>
+        <button type="update" class="btn btn-outline-success mx-1" (click)="update(freelancer.id)">
+          UPDATE
+        </button>
+        <button type="delete" class="btn btn-outline-danger mx-1" (click)="delete(freelancer.id)">
+          DELETE
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>

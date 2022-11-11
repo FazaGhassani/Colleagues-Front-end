@@ -1,0 +1,53 @@
+{
+  "freelancers": [
+    {
+      "id": 1,
+      "name": "Murphy",
+      "phone": "25565115",
+      "skill": "Software Developer",
+      "notes": "he has quality to build angular application"
+    },
+    {
+      "id": 2,
+      "name": "Eddies",
+      "phone": "25565115",
+      "skill": "Software Developer",
+      "notes": "he has quality to maintain production environment"
+    },
+    {
+      "id": 3,
+      "name": "Ruud van",
+      "phone": "25565115",
+      "skill": "UX Designer",
+      "notes": "he has quality to create excelent UX"
+    },
+    {
+      "id": 4,
+      "name": "Eusebio",
+      "phone": "25565115",
+      "skill": "Software Developer",
+      "notes": "he has quality to build angular application"
+    },
+    {
+      "id": 5,
+      "name": "Venom",
+      "phone": "25565115",
+      "skill": "Java Developer",
+      "notes": "he has quality to build java application"
+    },
+    {
+      "id": 6,
+      "name": "Richard",
+      "phone": "25565115",
+      "skill": "UX Developer",
+      "notes": "he has quality to build react application"
+    },
+    {
+      "name": "Ganis",
+      "phone": "09867823",
+      "skill": "Software Developer",
+      "notes": "Skillfull at handling error and copy paste angular components",
+      "id": 8
+    }
+  ]
+}
